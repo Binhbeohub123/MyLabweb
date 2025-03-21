@@ -1,0 +1,124 @@
+
+    header{
+        align-items: center;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+    }
+    body{
+        margin: 0px;
+    }
+    .menu{
+        margin: 10px;
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        font-weight: 700;
+        margin-right: 50px;
+    }
+    .menu:hover{
+        margin: 20px;
+        text-decoration: none;
+        color: rgb(215, 72, 72);
+        font-family: Arial;
+        font-weight: 1000;
+
+        
+    }
+    .trangchu{
+        margin: 20px;
+        text-decoration: none;
+        color: rgb(182, 60, 60);
+        font-family: Arial;
+        font-size: 20px;
+    }
+    button{
+        background-color: orangered;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        width: 230px;
+        color: white;
+        border-radius: 10px;
+        background: linear-gradient(to right,rgb(192, 101, 10),orangered);
+        margin-left: 20px;
+        font-family: Arial;
+        font-size: 15px;
+    }
+    .gocfreephai{
+        display: flex;
+        align-items: center;
+        color: orangered;
+        margin: 10px;
+        width: 300px;
+        font-family: Arial;
+    }
+    .dangnhap{
+        text-decoration: none;
+        color: white;
+        width: 150px;
+        margin-left: 20px;
+        justify-content: space-between;
+        align-content: center;
+        font-size: 15px;
+        display: flex;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .timkiem{
+        margin: 20px;
+    }
+
+
+    .sliders{
+        position: relative;
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    .slider{
+        width: 90vw;
+        height: 50vh;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .sliderr{   
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: none;
+    }
+    .active{
+        display: block;
+        animation: hieuung 5s forwards;
+    }
+    .inactive{
+        display: block;
+        animation: hieuvo 5s forwards;
+    }
+@keyframes hieuung {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes hieuvo {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}

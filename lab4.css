@@ -1,0 +1,38 @@
+body {
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+}
+.poem0{
+    font-variant: small-caps;
+    line-height: 25px;
+    color: white;
+    text-shadow: 0 0 5px red;
+}
+.sao {
+    font-variant: small-caps;
+    line-height: 25px;
+    color: white;
+    text-shadow: 0 0 5px red;
+}
+.poem1{
+    font-variant: small-caps;
+    line-height: 25px;
+    color: white;
+    text-shadow: 0 0 5px blue;
+}
+.poem2{
+    font-variant: small-caps;
+    line-height: 25px;
+    color: white;
+    text-shadow: 0 0 5px green;
+}
+strong{
+    font-variant: small-caps;
+    line-height: 25px;
+    color: brown;
+    text-shadow: 0 0 5px brown;
+}

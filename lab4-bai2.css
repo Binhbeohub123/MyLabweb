@@ -1,0 +1,40 @@
+body {
+        
+}
+header {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.anh {
+    display: block;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.menu li {
+    font-variant: small-caps;
+    color: blue;
+}
+.menu a {
+    text-decoration: none;
+    margin : 0 10px;
+    font-size: 20px;
+}
+.menu a:visited {
+    color: blue;
+}
+.menu a:hover {
+    text-decoration: underline;
+    color:green;
+}
